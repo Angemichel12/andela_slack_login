@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600;6..12,700&family=Nunito:wght@300;400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+body {
+  background: #ffffff;
+  width: 100%;
+  height: 100vh;
+  line-height: normal;
+  font-style: normal;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0;
+  flex-wrap: wrap;
+}
+
+.illustration {
+  padding: 0;
+  margin: 0;
+  width: 60%;
+  height: 100%;
+}
+
+.illustration img {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: block;
+}
+
+.login-form {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 5px;
+  padding: 30px 6%;
+}
+
+.login-form svg {
+  width: 40px;
+  height: 40px;
+}
+
+.login-form h2 {
+  color: #525252;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 10px;
+}
+
+.login-form p {
+  color: #525252;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  filter: blur(0.2px);
+}
+
+.google {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  background: #ffffff;
+  border: 1px solid #e8e8e8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.google img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.google span {
+  color: #828282;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  filter: blur(0.3px);
+}
+
+.separator {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0 0 0;
+  color: #ddd;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  filter: blur(0.2px);
+}
+
+.separator span {
+  color: #ddd;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0 5px;
+}
+
+.login-form form {
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.input-div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.input-div label {
+  color: #828282;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.input-div input {
+  width: 100%;
+  height: 40px;
+  outline: none;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ded2d9;
+  color: #828282;
+}
+
+.input-div input::placeholder {
+  color: #e0e0e0;
+}
+
+.remember-me {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.remember-me > div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
+}
+.remember-me > div input {
+  width: 10px;
+  height: 10px;
+  outline: none;
+  border: 1px solid #7f265b;
+  accent-color: #7f265b;
+  border-radius: 2px;
+}
+.remember-me > div span {
+  color: #a1a1a1;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.remember-me a {
+  text-decoration: none;
+  color: #7f265b;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: 1px solid #7f265b;
+  background: #7f265b;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 15px;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.create-account {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-top: 10%;
+}
+
+.create-account p {
+  color: #828282;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.create-account a {
+  text-decoration: none;
+  color: #7f265b;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+@media screen and (max-width: 896px) {
+  .illustration {
+    display: none;
+  }
+
+  .login-form {
+    width: 100%;
+  }
+}
